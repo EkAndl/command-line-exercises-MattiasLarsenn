@@ -8,7 +8,7 @@ rm -r recommend
 
 2: Create two directories "medal" and "terminal" and move into "terminal".
 mkdir medal terminal
-cd terminalm
+cd terminal
 
 3: Create a file "evaluate.txt" containing: "rain evaluate recommend evaluate discover". Then search recursively for "evaluate".
 touch evaluate.txt
@@ -19,9 +19,10 @@ grep -r "evaluate"
 whoami
 
 5: Change directory to "cli_sandbox".
-cd..
+cd ~/cli_sandbox
 
 6: Change directory to "cli_sandbox".
+cd ~/cli_sandbox
 
 7: Create a directory "needle" and then delete it.
 mkdir needle
